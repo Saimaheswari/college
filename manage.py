@@ -1,5 +1,7 @@
 import streamlit as st
 st.set_page_config(layout="wide")
+st.sidebar.title("Menu")
+st.sidebar.subheader("Choose an option")
 st.title("Student Management")
 st.sidebar.title("Fee Management")
 st.sidebar.subheader("Add Student")
